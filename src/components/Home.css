@@ -1,0 +1,42 @@
+/* Home.css */
+.home-container {
+  background-image: url(https://img3.wallspic.com/crops/5/4/3/9/0/109345/109345-design-diary-paper-text-scrapbooking-1920x1080.jpg);
+  background-size: cover;
+  background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f8f8f8;
+  }
+  
+  .home-content {
+    text-align: center;
+  }
+  
+  .home-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .home-description {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .home-button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #007bff;
+    color: #ff0000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-button:hover {
+    background-color: #0056b3;
+  }
+  
