@@ -1,35 +1,35 @@
 .navbar {
-  position: fixed; /* Set navbar position to fixed */
-  top: 0; /* Position at the top of the viewport */
-  width: 100%; /* Occupy the full width of the viewport */
-  background-color: #333; /* navbar background color */
-  padding: 15px 0px; /* padding around the navbar */
+  position: fixed; /* Set navbar position to fixed to keep it from disappearing while scrolling */
+  top: 0; /* Positioned it at the top of the viewport */
+  width: 100%; /* Occupying the full width of the viewport */
+  background-color: #333;
+  padding: 15px 0px;
 }
 
 .nav-links {
-  list-style-type: none; /* Remove bullet points from the list */
+  list-style-type: none;
   margin: 0;
   padding: 0;
-  display: flex; /* Use flexbox */
-  justify-content: center; /* Center items horizontally */
-  align-items: center; /* Center items vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav-links li {
-  display: inline-block; /* Display list items inline */
-  margin: 0 10px; /* Add some space between list items */
+  display: inline-block; /* Display list items inline to avoid stacking*/
+  margin: 0 10px;
 }
 
 .nav-links li a {
   color: #fff;
   text-decoration: none;
-  background-color: #6d9a7a; /* Background color */
-  padding: 3px 7px; /* Padding for top/bottom and left/right */
-  border-radius: 5px; /* Rounded corners */
-  transition: background-color 0.3s ease; /* Smooth transition effect */
+  background-color: #6d9a7a;
+  padding: 3px 7px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease; /* Transition effect */
 }
 
 .nav-links li a:hover {
-  text-decoration: underline; /* Add underline on hover */
-  background-color: #4b6853; /* Lighter background color on hover */
+  text-decoration: underline;
+  background-color: #4b6853; /* Darker background color on hover. This gives the illusion of a depression. */
 }

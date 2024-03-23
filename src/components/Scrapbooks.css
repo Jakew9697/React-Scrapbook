@@ -25,17 +25,17 @@
 }
 
 .new-scrapbook-button {
-  transform: translateX(275%); /* Center horizontally */
-  width: 35px; /* Set width */
-  height: 35px; /* Set height */
-  background-color: #6d9a7a; /* Background color for the "+" sign */
-  color: white; /* Text color */
-  border-radius: 50%; /* Make the sign circular */
-  display: flex; /* Use flexbox */
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  font-size: 20px; /* Adjust font size */
-  cursor: pointer; /* Change cursor to pointer on hover */
+  transform: translateX(275%); /* Centering horizontally */
+  width: 35px;
+  height: 35px;
+  background-color: #6d9a7a;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center; /* Centering horizontally */
+  align-items: center; /* Centering vertically */
+  font-size: 20px;
+  cursor: pointer;
 }
 
 .new-scrapbook-button:hover {
@@ -54,13 +54,13 @@
     auto-fit,
     minmax(200px, 1fr)
   ); /* Auto-fit columns with minimum width of 200px */
-  grid-gap: 10px; /* Gap between grid items */
-  list-style-type: none; /* Remove default list styles */
-  padding: 0; /* Remove padding */
+  grid-gap: 10px;
+  list-style-type: none;
+  padding: 0;
 }
 
 .scrapbooks-list li {
-  background-color: #f0f0f0; /* Background color for grid items */
-  padding: 10px; /* Padding for grid items */
-  border-radius: 5px; /* Rounded corners */
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
 }

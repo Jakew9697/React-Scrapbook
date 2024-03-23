@@ -9,7 +9,8 @@ import SignUp from "./components/SignUp";
 function App() {
   return (
     <Router>
-      <Navbar /> {/* Rendering Navbar outside of Routes */}
+      <Navbar />{" "}
+      {/* Rendering Navbar outside of Routes to keep it present in all views. */}
       <Routes>
         <Route path="/" element={<Home />} />{" "}
         <Route path="/scrapbooks" element={<Scrapbooks />} />{" "}
