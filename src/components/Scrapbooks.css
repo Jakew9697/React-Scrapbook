@@ -1,0 +1,66 @@
+.scrapbooks-container {
+  background-image: url(https://img3.wallspic.com/crops/5/4/3/9/0/109345/109345-design-diary-paper-text-scrapbooking-1920x1080.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.scrapbooks-content {
+  text-align: center;
+  margin-bottom: 0px;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Semi-transparent white background */
+  padding: 5px 40px;
+  border-radius: 15px;
+}
+
+.new-scrapbook-button {
+  transform: translateX(275%); /* Center horizontally */
+  width: 35px; /* Set width */
+  height: 35px; /* Set height */
+  background-color: #4b6853; /* Background color for the "+" sign */
+  color: white; /* Text color */
+  border-radius: 50%; /* Make the sign circular */
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  font-size: 20px; /* Adjust font size */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.new-scrapbook-button:hover {
+  background-color: #6d9a7a;
+}
+
+.scrapbooks-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: 800;
+}
+
+.scrapbooks-list {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(200px, 1fr)
+  ); /* Auto-fit columns with minimum width of 200px */
+  grid-gap: 10px; /* Gap between grid items */
+  list-style-type: none; /* Remove default list styles */
+  padding: 0; /* Remove padding */
+}
+
+.scrapbooks-list li {
+  background-color: #f0f0f0; /* Background color for grid items */
+  padding: 10px; /* Padding for grid items */
+  border-radius: 5px; /* Rounded corners */
+}

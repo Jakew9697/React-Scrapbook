@@ -1,25 +1,35 @@
 .navbar {
-    background-color: #333; /* Background color for the navbar */
-    padding: 10px 20px; /* Padding around the navbar */
-  }
-  
-  .nav-links {
-    list-style-type: none; /* Remove bullet points from the list */
-    margin: 0;
-    padding: 0;
-  }
-  
-  .nav-links li {
-    display: inline; /* Display list items inline */
-    margin-right: 20px; /* Add some space between list items */
-  }
-  
-  .nav-links li a {
-    color: #fff; /* Text color for the links */
-    text-decoration: none; /* Remove underline from the links */
-  }
-  
-  .nav-links li a:hover {
-    text-decoration: underline; /* Add underline on hover */
-  }
-  
+  position: fixed; /* Set navbar position to fixed */
+  top: 0; /* Position at the top of the viewport */
+  width: 100%; /* Occupy the full width of the viewport */
+  background-color: #333; /* navbar background color */
+  padding: 15px 0px; /* padding around the navbar */
+}
+
+.nav-links {
+  list-style-type: none; /* Remove bullet points from the list */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+}
+
+.nav-links li {
+  display: inline-block; /* Display list items inline */
+  margin: 0 10px; /* Add some space between list items */
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  background-color: #4b6853; /* Background color */
+  padding: 3px 7px; /* Padding for top/bottom and left/right */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+.nav-links li a:hover {
+  text-decoration: underline; /* Add underline on hover */
+  background-color: #6d9a7a; /* Lighter background color on hover */
+}
