@@ -4,18 +4,17 @@ import Home from "./components/Home";
 import Scrapbooks from "./components/Scrapbooks";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
+import SignUp from "./components/SignUp";
 
 function App() {
   return (
     <Router>
-      <Navbar /> {/* Render Navbar outside of Routes */}
+      <Navbar /> {/* Rendering Navbar outside of Routes */}
       <Routes>
-        <Route exact path="/" element={<Home />} />{" "}
-        {/* Use "element" prop instead of "component" */}
+        <Route path="/" element={<Home />} />{" "}
         <Route path="/scrapbooks" element={<Scrapbooks />} />{" "}
-        {/* Use "element" prop instead of "component" */}
         <Route path="/about" element={<About />} />{" "}
-        {/* Use "element" prop instead of "component" */}
+        <Route path="/signup" element={<SignUp />} />{" "}
       </Routes>
     </Router>
   );

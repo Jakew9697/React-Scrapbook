@@ -23,7 +23,7 @@
 .nav-links li a {
   color: #fff;
   text-decoration: none;
-  background-color: #4b6853; /* Background color */
+  background-color: #6d9a7a; /* Background color */
   padding: 3px 7px; /* Padding for top/bottom and left/right */
   border-radius: 5px; /* Rounded corners */
   transition: background-color 0.3s ease; /* Smooth transition effect */
@@ -31,5 +31,5 @@
 
 .nav-links li a:hover {
   text-decoration: underline; /* Add underline on hover */
-  background-color: #6d9a7a; /* Lighter background color on hover */
+  background-color: #4b6853; /* Lighter background color on hover */
 }

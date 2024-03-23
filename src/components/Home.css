@@ -39,7 +39,7 @@
 .welcome-button {
   padding: 10px 20px;
   font-size: 1.2rem;
-  background-color: #4b6853;
+  background-color: #6d9a7a;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -48,5 +48,5 @@
 }
 
 .welcome-button:hover {
-  background-color: #6d9a7a;
+  background-color: #4b6853;
 }

@@ -28,7 +28,7 @@
   transform: translateX(275%); /* Center horizontally */
   width: 35px; /* Set width */
   height: 35px; /* Set height */
-  background-color: #4b6853; /* Background color for the "+" sign */
+  background-color: #6d9a7a; /* Background color for the "+" sign */
   color: white; /* Text color */
   border-radius: 50%; /* Make the sign circular */
   display: flex; /* Use flexbox */
@@ -39,7 +39,7 @@
 }
 
 .new-scrapbook-button:hover {
-  background-color: #6d9a7a;
+  background-color: #4b6853;
 }
 
 .scrapbooks-title {
